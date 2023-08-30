@@ -1,0 +1,272 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #ffffff;
+	padding: 60px 0;
+
+
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+nav {
+	position: absolute;
+	top:60px;
+	right: 0;
+
+}
+
+nav li { 
+	display: inline;
+	margin: 0 0 0 15px;
+
+ }
+
+nav a {
+	text transform: uppercase;
+	color: #DAA520;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none; 
+}
+
+
+#toxina, #Bioestimulador, #fios {
+	width: 240px;
+	height: 250px;
+}
+
+nav a:hover {
+
+	color: #000000;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #DAA520;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.produtos li:hover {
+	border: 4px solid #DAA520;
+}
+
+.produtos li:active {
+    border-color: #000000;    
+}
+
+
+.produtos h2 { 
+	text-align: center;
+	white-space: nowrap;
+	font-size: 30px;
+	font-weight: bold;
+ }
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22;
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+
+footer img {
+	width: 100px;
+	height: 100px;
+}
+
+footer { 
+	text-align: center;
+	background-color: #fdefdb;
+	padding: 40px;
+}
+
+.copyright { 
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+main { 
+	width: 940px;
+	margin: 0 auto;
+}
+
+form { 
+	margin: 60px 0;
+ }
+
+ form label, form legend {
+ 	display: block;
+ 	font-size: 20px;
+ 	margin: 0 0 15px;
+ }
+
+.input-padrao {
+ 	display: block;
+ 	font-size: 20px;
+ 	margin: 0 0 15px;
+ 	padding: 10px 25px;
+ 	width: 50%;
+ }
+
+ .checkbox { 
+ 	margin: 50px 0px;
+  }
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #fdefdb;
+
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	border: none;
+	border-radius: 8px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #DAA520;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #fdefdb;
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+td,th {
+	border: 1px solid black;
+	padding: 8px 10px;
+
+}
+
+/* css da pagina home. */
+
+.banner {
+	display: flex;
+	justify-content: center;
+	margin: 1em auto;
+	height: 500px;
+	border: 4px solid #fdefdb;
+	border-radius: 10px 10px 10px 10px;
+	opacity: 1;
+}
+
+.banner:hover {
+	display: flex;
+	justify-content: center;
+	margin: 1em auto;
+	height: 500px;
+	border: 4px solid #fdefdb;
+	border-radius: 10px 10px 10px 10px;
+	opacity: 0.9;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em; /* 2x a fonte base que é 15px */ 
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal{
+	padding: 4em 0;
+	background: #FEFEFE;
+}
+
+.principal p { 
+	margin: 0 0 1em;
+ }
+
+ .principal strong {
+ 	font-weight: bold;
+ }
+
+ .princial em {
+ 	font-style: italic;
+ }
+
+.logotexto {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+.lista-beneficios{
+	width: 40%;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding-right: 30px;
+}
+
+.imagem-beneficios {
+	width: 60%;
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 4px solid #fdefdb;
+	border-radius: 10px 10px 10px 10px;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+} 
+
+.itens:hover {
+	font-weight: bold;
+
+}
+
+.beneficios {
+	padding: 6em 0;
+
+}
+
+.mapa { 
+	padding: 6em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
